@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title" : "Mercedes Benz image" ,
+    "url": "src/assets/hero-home/image3.webp"
+  },
+  {
+    "id": 2,
+    "title" : "Porsche image" ,
+    "url": "src/assets/hero-home/image4.webp"
+  },
+  {
+    "id": 3,
+    "title" : "BMW image" ,
+    "url": "src/assets/hero-home/image1.webp"
+  },
+  {
+    "id": 4,
+    "title" : "Audi image" ,
+    "url": "src/assets/hero-home/image2.webp"
+  }
+]

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import heroImages from '../../assets/hero-home/images.json'
 import RandomNumber from '../../vanilla/number-random'
 import { NavLink } from 'react-router-dom'
-import Logos from '../logos'
+import Brandings from '../brandings'
 
 export default function Home () {
   const [image, setImage] = useState(heroImages[0])
@@ -27,7 +27,7 @@ export default function Home () {
         >
           Cars
         </NavLink>
-        <Logos></Logos>
+        <Brandings></Brandings>
       </div>
       </div>
   )

@@ -11,7 +11,7 @@ export default function Header () {
   }
 
   return (
-    <header className="h-20 flex flex-row justify-between items-center px-4 sticky top-0 left-0 bg-blue-50 md:px-10">
+    <header className="h-20 flex flex-row justify-between items-center px-4 sticky top-0 left-0 bg-blue-50 md:px-10 z-10">
       <NavLink className={'md:text-2xl'} to={'/'}>Car dealership</NavLink>
       <MenuOpen open={open} setOpen={setOpen} />
       <ul className={open ? 'flex flex-col justify-center items-center gap-4 absolute bg-blue-50 top-0 left-0 w-screen h-screen md:w-[15%] md:left-auto md:right-0 md:backdrop-filter md:backdrop-blur-md md:bg-blue-50/50' : 'hidden'}>

@@ -1,7 +1,7 @@
-import Product from "../../components/products";
+import Cars from "../../components/cars";
 
 export default function ProductsPage () {
   return (
-    <Product></Product>
+    <Cars></Cars>
   )
 }

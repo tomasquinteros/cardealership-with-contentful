@@ -18,5 +18,10 @@
     "id": 4,
     "title" : "Audi image" ,
     "url": "src/assets/hero-home/image2.webp"
+  },
+  {
+    "id": 5,
+    "title": "BWM LOGO",
+    "url":"src/assets/hero-home/bmw-logo.jpg"
   }
 ]

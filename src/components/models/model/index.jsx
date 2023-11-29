@@ -6,7 +6,7 @@ export default function Model (params) {
   const {model, price, branding} = params
   const id = model
   return (
-    <article className="min-w-full p-4 h-[14rem] flex flex-col justify-between hover:scale-110 transition-all duration-100">
+    <article className="min-w-full p-4 h-[14rem] flex flex-col justify-between hover:scale-105 transition-all duration-100">
       <section>
         <h3>{branding}{model}</h3>
         
